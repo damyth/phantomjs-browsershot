@@ -1,14 +1,32 @@
 {
   "name": "phantomjs-browsershot",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "High performance image or pdf creation with phantomjs pool",
   "main": "app.js",
   "scripts": {
     "run": "node app.js"
   },
-  "keywords": [],
-  "author": "Damith Harischandrathilaka",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/damyth/phantomjs-browsershot.git"
+  },
+  "bugs": {
+    "url": "https://github.comdamyth/phantomjs-browsershot/issues"
+  },
+  "author": {
+    "name": "Damith Harischandrathilaka",
+    "email": "bqudamith@gmail.com"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/damyth/phantomjs-browsershot/blob/master/LICENSE"
+  },
+  "keywords": [
+    "screenshot",
+    "screen shot",
+    "page shot",
+    "browser shot"
+  ],
   "dependencies": {
     "@feathersjs/express": "^1.2.3",
     "@feathersjs/feathers": "^3.1.7",
