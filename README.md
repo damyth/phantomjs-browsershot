@@ -2,4 +2,6 @@
 
 [![Latest Version](https://img.shields.io/github/release/damyth/phantomjs-browsershot.svg?style=flat-square)](https://github.com/damyth/phantomjs-browsershot/releases)
 [![MIT Licensed](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Total Downloads](https://img.shields.io/packagist/dt/damyth/phantomjs-browsershot.svg?style=flat-square)](https://packagist.org/packages/damyth/phantomjs-browsershot)
+[![Total Downloads](https://img.shields.io/npm/dt/phantomjs-browsershot)](https://www.npmjs.com/package/phantomjs-browsershot)
+
+I'm still working on the documentation. Will update  it soon.. :)

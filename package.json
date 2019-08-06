@@ -1,6 +1,6 @@
 {
   "name": "phantomjs-browsershot",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "High performance image or pdf creation with phantomjs pool",
   "main": "app.js",
   "scripts": {
@@ -25,7 +25,8 @@
     "screenshot",
     "screen shot",
     "page shot",
-    "browser shot"
+    "browser shot",
+    "phantomjs screenshot"
   ],
   "dependencies": {
     "@feathersjs/express": "^1.2.3",
