@@ -1,0 +1,17 @@
+{
+  "name": "phantomjs-browsershot",
+  "version": "1.0.0",
+  "description": "High performance image or pdf creation with phantomjs pool",
+  "main": "app.js",
+  "scripts": {
+    "run": "node app.js"
+  },
+  "keywords": [],
+  "author": "Damith Harischandrathilaka",
+  "license": "MIT",
+  "dependencies": {
+    "@feathersjs/express": "^1.2.3",
+    "@feathersjs/feathers": "^3.1.7",
+    "phantom-pool": "^1.2.2"
+  }
+}
