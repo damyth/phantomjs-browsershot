@@ -1,10 +1,10 @@
 {
   "name": "phantomjs-browsershot",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "High performance image or pdf creation with phantomjs pool",
   "main": "app.js",
   "scripts": {
-    "run": "node app.js"
+    "print_service": "node app.js"
   },
   "repository": {
     "type": "git",

@@ -24,7 +24,7 @@ class Prints {
             testOnBorrow: true,
             // For all opts, see opts at https://github.com/coopernurse/node-pool#createpool
             phantomArgs: [['--ignore-ssl-errors=true', '--load-images=true'], {
-                logLevel: 'debug',
+                logLevel: 'info',
             }],
         })
 
@@ -34,11 +34,12 @@ class Prints {
         return new Promise(resolve => {
             let elapsedTime = 0;
             const refreshId2 = setInterval(async() => {
-                let loaded = await page.evaluate(function () {
-                    return document.getElementById("is_products_loaded").value
-                })
+                // let loaded = await page.evaluate(function () {
+                //     return document.getElementById("is_products_loaded").value
+                // })
+                
                 //console.log('====================================='+loaded)
-                if ((loaded == 'complete')||(elapsedTime == 24)){
+                if ((elapsedTime == 4)){
                     clearInterval(refreshId2)
                     resolve('resolve')
                     return true
@@ -90,6 +91,7 @@ class Prints {
         this.urls = data.urls
         this.public_path = data.public_path
 
+        console.log(this.urls);
         for (var i = 0, len = this.urls.length; i < len; i++)
             this.print(this.urls[i].url, this.urls[i].save_path)
 
